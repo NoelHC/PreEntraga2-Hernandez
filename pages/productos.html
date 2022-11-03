@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+  <html lang=”en”>
+    <head>
+      <meta charset=”UTF-8″ />
+      <link rel="stylesheet" href="../css/style.css">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Productos y Ofertas</title>
+      <link rel="icon" type="image/png" size="16x16" href="../img/logo.png">
+      <!-- Bootstrap-->
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <!-- CSS MAIN-->
+      <link rel="stylesheet" href="../css/style.css">
+  </head>
+    <body id="body_grid">
+      <header id="header">
+        <!-- div de logo con posición absoluta (No necesario)
+        <div class="logoscroll">
+        <a href="./index.html"><img class="logoscroll" src="img/logo.png" height="100px"/></a>
+        </div>
+        -->
+        <nav class="nav navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <div class="logo">
+              <a href="../index.html">
+                <img src="../img/logo.png" class="header" height="100px"/>
+              </a>
+            </div>
+            <a class="navbar-brand" href="./index.html">MAYORISTAS URUGUAY </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="../pages/productos.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="../pages/productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                      </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/productos.html">Más vendidos</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#Categorias">Lista de Categorias</a></li>
+                    </ul>
+                  </li>
+                    <li class="nav-item ">
+                      <a class="nav-link active" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link active" href="../pages/suma_tu_negocio.html" >Quiero Agregar mi negocio</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Busca lo que quieras..."  aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+
+                <!-- VIEJO MENU
+
+              <nav class="nav">
+                div del logo 
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" class="header" height="100px"/>
+                    </a>
+                </div>
+
+
+                <form class="buscador">
+                    <input type="Buscar" id="Buscar" placeholder="Busca lo que quieras..." />
+                    <button type="Buscar">Buscar</button>
+                  </form>
+
+                <div class="menu">
+                    <ul>
+                        <li ><a href="#Categorias">Categorias</a></li>
+                        <li ><a href="./pages/productos.html">Ofertas</a></li>
+                        <li><a href="./pages/sobreNosotros.html">Sobre Nosotros</a></li>
+                        <li><a target="_blank" href="./pages/suma_tu_negocio.html">Quiero Agregar mi negocio</a></li>
+                    </ul>
+                </div>
+              </nav>
+            -->
+        </header>
+          <main>
+            <div class="doblecolumna">
+              <aside class="anuncio">
+                <h1>Productos y Ofertas</h1>
+                <a target="_blank" href="../pages/suma_tu_negocio.html">
+                  <img src="../img/Anuncio.png"  class="imagenanuncio" />
+                </a>
+              </aside>
+           
+              <section id="Categorias" class="categorias">
+              <h2>Categorias Destacadas</h2>
+                <!-- Tablas (Lo cambie por Grid) 
+                <table border="2px" cellpadding="10px"  >
+                  <tr>
+                    <td><a href="./pages/productos.html">Celulares y Telefonía<img></a></td>
+                    <td><a href="./pages/productos.html">Ropa, Calzado y Accesorios</a></td>
+                    <td><a href="./pages/productos.html">Herramientas</a></td>
+                    <td><a href="./pages/productos.html">Computación</a></td>
+                    <td><a href="./pages/productos.html">Deportes</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="./pages/productos.html">Juegos y Juguetes</a></td>
+                    <td><a href="./pages/productos.html">Hogar</a></td>
+                    <td><a href="./pages/productos.html">Electrodomésticos</a></td>
+                    <td><a href="./pages/productos.html">Electrónica</a></td>
+                    <td><a href="./pages/productos.html">Belleza</a></td>
+                  </tr>
+                </table>
+                -->
+              <article class="grid-container1"> 
+                    <div><a href="../pages/productos.html">Celulares y Telefonía</a></div>
+                    <div><a href="../pages/productos.html">Ropa, Calzado y Accesorios</a></div>
+                    <div><a href="../pages/productos.html">Herramientas</a></div>
+                    <div><a href="../pages/productos.html">Computación</a></div>
+                    <div><a href="../pages/productos.html">Deportes</a></div>
+                    <div><a href="../pages/productos.html">Juegos y Juguetes</a></div>
+                    <div><a href="../pages/productos.html">Hogar</a></div>
+                    <div><a href="../pages/productos.html">Electrodomésticos</a></div>
+                    <div><a href="../pages/productos.html">Electrónica</a></div>
+                    <div><a href="../pages/productos.html">Belleza</a></div>
+              </article>
+              </section>
+            </div>
+          
+            <div>
+              <h2>También te puede interesar</h2>
+              <article  class="grid-container" >    
+                <div>
+                    <div class="items" ><a href="../pages/suma_tu_negocio.html"><img src="../img/Anuncio.png" class="imagenanuncio" /></a></div>
+                    <div class="items" ><a href="../pages/suma_tu_negocio.html"><img src="../img/Anuncio.png" class="imagenanuncio" /></a></div>
+                </div>
+              </article>
+          </div>
+
+
+
+
+          <!--Sistema de Grillas de BOOTSTRAP-->
+          <h2>Los Mayoristas más buscados:</h2>
+          <div class="container-fuid">
+            <div class="row">
+              <!-- BOOTSTRAP PARA ORGANIZAR COLUMNAS 
+                Basicamente el with sería de 12 espacios siempre
+                col-sm es el modo más pequeño de vistay le estamos diciendo que cada campo de la fila ocupe
+                12 espacios (La Fila entera)
+
+                luego con col-md-6 le estamos diciendo que al agrandar cada uno ocupe 6 espacios
+                por lo que entran 2 por fila-->
+                
+                
+
+
+
+                
+
+
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border ">EL MAESTRO <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 9:00 a 17:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: BAZAR</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border" >PEPE GANGA<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 9:00 a 17:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: BAZAR</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border">LA BOMBA<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 10:00 a 18:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: ELECTRONICA</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border">IMPERIO ELECTRONICO<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: 24 hs</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: ELECTRONICA</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border ">UNIVERSO TECHNOLOGY<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 9:00 a 17:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: ELECTRODOMESTICOS Y ELECTRONICA</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border" >CASA ALBERTO<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 9:00 a 17:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: BAZAR</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border">CHANCHICHEFF<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 10:00 a 18:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: SI</li>
+                    <li>CATEGORIA: HOGAR</li>
+                  </ul>
+                </div></div>
+                <div class="fila col-sm-12 col-md-6 text-light fs-1 container px-4 text-center p-3 border">EMEC<div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFORMACIÓN
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>HORARIOS: L a V 9:00 a 17:00</li>
+                    <li>TIENE PRECIOS PARA MAYORISTAS: NO</li>
+                    <li>CATEGORIA: ELECTRONICA</li>
+                  </ul>
+                </div></div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+            <footer id="footer_index">
+                <form action="/formulario" method="POST">
+                  <h3>Enterate de Nuestras Ofertas Subscribiendote:</h3>
+                   <!-- method puede ser post o get, get es por link y post no -->
+                  <fieldset>
+                    <label for="Nombre">Nombre</label>
+                    <input   type="text" id="Nombre" name="nombre" placeholder="Juan" required>
+                    <br>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Juan@gmail.com" required>
+                    <!-- type puede ser email, etc -->
+                    <br>
+                    <br>
+                    <label for="terminos" >Acepto los Terminos de Privacidad</label>
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <br>
+                    <br>
+                    <fieldset>
+                      <legend>Quiero recibir:</legend>
+                      <select name="OfertasyNoticias" id="OfertasyNoticias">
+                        <option value="Ofertas">Solo Ofertas</option>
+                        <option value="Noticias">Solo Noticias</option>
+                        <option value="OfertasyNoticias">Ofertas y Noticias</option>
+                      </select>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <button type="submit">Enviar</button>
+                  </fieldset>
+                </form>
+                <a  href="#header" class="volver_arriba">Volver Arriba</a>
+              </footer>
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+    </body>    
+</html>
